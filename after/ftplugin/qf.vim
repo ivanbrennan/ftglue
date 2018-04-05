@@ -15,3 +15,8 @@ if exists('w:quickfix_title')
 endif
 
 setl colorcolumn=""
+
+if mapcheck("\<CR>", 'n') ==# ''
+  nnoremap <Plug>(ftglue_enter) <CR>
+  nmap <buffer><silent> <CR> <Plug>(ftglue_enter)<Plug>(hint_highlight)
+endif
