@@ -17,6 +17,6 @@ endif
 setl colorcolumn=""
 
 if mapcheck("\<CR>", 'n') ==# ''
-  nnoremap <Plug>(ftglue_enter) <CR>
-  nmap <buffer><silent> <CR> <Plug>(ftglue_enter)<Plug>(hint_highlight)
+  nmap <buffer><silent> <CR>
+  \ <Plug>(coherent_enter)<Plug>(listical_offset)<Plug>(hint_highlight)
 endif
