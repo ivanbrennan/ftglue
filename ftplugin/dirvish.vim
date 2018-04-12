@@ -18,7 +18,7 @@ nnoremap <C-_> u
 
 nnoremap <silent><buffer> h  :silent call <SID>ToggleHiddenFiles()<CR>
 
-func! s:ToggleHiddenFiles()
+func! s:ToggleHiddenFiles() abort
   let save_cursor = getcurpos()
 
   if b:show_hidden_files
