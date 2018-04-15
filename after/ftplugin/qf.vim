@@ -18,5 +18,5 @@ setl colorcolumn=""
 
 if mapcheck("\<CR>", 'n') ==# ''
   nmap <buffer><silent> <CR>
-  \ <Plug>(coherent_enter)<Plug>(coherent_nudge)<Plug>(hint_highlight)
+  \ <Plug>(coherent_enter)<Plug>(latitude_nudge)<Plug>(hint_highlight)
 endif
