@@ -21,7 +21,7 @@ nmap <buffer><silent> <leader>=  <Plug>(realign_method_chain)
 xmap <buffer><silent> <leader>=  <Plug>(realign_method_chain)
 imap <buffer><silent>     <M-=>  <Plug>(realign_method_chain)
 
-" vim-ruby provides a command-line mapping for <Plug><cword> that
+" vim-ruby provides a command-line mapping for <Plug><ctag> that
 " intelligently identifies the current Ruby cursor identifier.
-nmap <buffer><silent> <Plug>(ArticulateTag)   :<C-U>exe v:count1 "tag <Plug><cword>"<CR>
-nmap <buffer><silent> <Plug>(ArticulateTjump) :<C-U>tjump <Plug><cword><CR>
+nmap <buffer><silent> <Plug>(ArticulateTag)   :<C-U>exe v:count1 "tag <Plug><ctag>"<CR>
+nmap <buffer><silent> <Plug>(ArticulateTjump) :<C-U>tjump <Plug><ctag><CR>
