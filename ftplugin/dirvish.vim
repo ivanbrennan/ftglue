@@ -11,6 +11,7 @@ setlocal nonumber
 
 nmap <buffer> u  <Plug>(dirvish_up)
 nmap <buffer> m  <CR>
+nmap <buffer> q <Plug>(dirvish_quit)
 
 " I should move the u mapping (dirvish_up) to a submode, then I could preserve
 " u for undo in normal mode and won't need the below mapping
